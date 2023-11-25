@@ -2,6 +2,8 @@
 
 Moshi Moshi is an open source version of [Dasai Mochi](https://dasai.com.au/products/mochi).
 
+![MoshiMoshi Demo](./assets/demo.gif)
+
 ## Tools
 
 - [Prototyping](https://wokwi.com/)

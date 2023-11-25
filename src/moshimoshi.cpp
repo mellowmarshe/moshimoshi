@@ -28,7 +28,6 @@ void loop()
 {
   int randomNum = random(TOTAL_ANIMATIONS);
   const FunctionPtr *animations = animationArray[randomNum];
-
   const FunctionPtr preAnim = animations[0];
   const FunctionPtr anim = animations[1];
   const FunctionPtr postAnim = animations[2];
@@ -40,7 +39,6 @@ void loop()
 
   if (anim != nullptr)
   {
-    // sleep is a little special so it gets to run multiple times
     if (randomNum == 0)
     {
       for (int i = 0; i <= random(MIN_SLEEP_AMOUNT, MAX_SLEEP_AMOUNT); i++)
