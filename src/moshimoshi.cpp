@@ -27,6 +27,7 @@ void setup()
 void loop()
 {
   int randomNum = random(TOTAL_ANIMATIONS);
+
   const FunctionPtr *animations = animationArray[randomNum];
   const FunctionPtr preAnim = animations[0];
   const FunctionPtr anim = animations[1];

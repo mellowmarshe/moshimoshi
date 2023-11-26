@@ -1,10 +1,11 @@
 # Moshi moshi
 
-Moshi Moshi is an open source version of [Dasai Mochi](https://dasai.com.au/products/mochi).
+Moshi Moshi is an open source version of [Dasai Mochi](https://dasai.com.au/products/mochi). Moshi randomly picks an
+animation and runs that animation to include transitioning from the standby, or smile, animation to the new one.
 
 ![MoshiMoshi Demo](./assets/demo.gif)
 
-## Tools
+## Tool
 
 - [Prototyping](https://wokwi.com/)
 - [Display Generator](https://rickkas7.github.io/DisplayGenerator/)
@@ -36,3 +37,13 @@ Moshi Moshi is an open source version of [Dasai Mochi](https://dasai.com.au/prod
 | RES  | GPIO17    |
 | DC   | GPIO16    |
 | CS   | GPIO5     |
+
+## Animations
+
+- [x] Blink
+- [x] Sleep
+- [ ] Scared
+- [ ] Heart Eyes
+- [ ] Start Intro
+
+Suggestions? Open an issue!
