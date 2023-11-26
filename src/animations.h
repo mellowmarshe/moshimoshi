@@ -21,4 +21,7 @@ void blink();
 // Standby animation
 void standby();
 
+// Splash screen
+void splash();
+
 #endif

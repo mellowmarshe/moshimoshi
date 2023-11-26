@@ -11,14 +11,8 @@ void setup()
   display.begin(0, true);
 
   display.clearDisplay();
-
-  display.setTextSize(1);
-  display.setTextColor(WHITE);
-  display.setCursor(28, 20);
-  display.println("MoshiMoshi");
-  display.setCursor(35, 40);
-
-  displaySleep(2000);
+  splash();
+  displaySleep(5000);
 
   standby();
   displaySleep(5000);

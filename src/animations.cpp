@@ -123,3 +123,12 @@ void standby()
     displayOpenEyes();
     displaySmile();
 }
+
+void splash()
+{
+    display.drawBitmap(19, 18, moshi_splash_bitmap, 90, 20, 1);
+    display.setCursor(19, 42);
+    display.setTextSize(1);
+    display.setTextColor(WHITE);
+    display.println("by Dominic");
+}

@@ -44,6 +44,6 @@ animation and runs that animation to include transitioning from the standby, or 
 - [x] Sleep
 - [ ] Scared
 - [ ] Heart Eyes
-- [ ] Start Intro
+- [x] Splash Screen
 
 Suggestions? Open an issue!

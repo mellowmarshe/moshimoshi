@@ -27,6 +27,7 @@ using FunctionPtr = void (*)();
 
 extern const FunctionPtr animationArray[TOTAL_ANIMATIONS][3];
 extern const uint8_t sleeping_z_bitmap[];
+extern const uint8_t moshi_splash_bitmap[];
 extern Adafruit_SH1106G display;
 
 #endif
